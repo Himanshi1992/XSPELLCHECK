@@ -7,7 +7,7 @@ const customDictionary = {
   exampl: "example"
 };
 
-function XSpellCheck() {
+function SpellCheck() {
   const [text, setText] = useState('');
   const [suggestion, setSuggestion] = useState('');
 
@@ -45,4 +45,4 @@ function XSpellCheck() {
     </div>
   );
 }
-export default XSpellCheck;
+export default SpellCheck;
